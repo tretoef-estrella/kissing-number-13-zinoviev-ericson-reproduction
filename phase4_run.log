@@ -1,0 +1,77 @@
+======================================================================
+FRENTE A-bis PHASE 4 — Grieta G size-parity sweep
+======================================================================
+
+Input:  /Users/rafa/Downloads/PHASE1_BIS_EXT_RESULTS.json
+Loaded 1608 candidates (cset<=4 catalog)
+cset size distribution: {2: 264, 4: 1344}
+Reordered: cset=2 indices 0..263, cset=4 indices 264..1607
+
+--- pairwise compatibility ---
+Compat matrix built [0.02s]  density=0.985  edges=1,272,204
+
+======================================================================
+DELTA = +2  (target size 1156)
+======================================================================
+
+  k = 3, |U| <= 1, target size = 1156
+    visits=0  records=0  elapsed=0.0s
+
+  k = 4, |U| <= 2, target size = 1156
+    visits=384  records=0  elapsed=0.1s
+
+  k = 5, |U| <= 3, target size = 1156
+    visits=2,944  records=0  elapsed=0.8s
+
+  k = 6, |U| <= 4, target size = 1156
+    visits=82,684  records=0  elapsed=22.3s
+
+  k = 7, |U| <= 5, target size = 1156
+    visits=936,700  records=0  elapsed=275.7s
+
+======================================================================
+DELTA = +3  (target size 1157)
+======================================================================
+
+  k = 4, |U| <= 1, target size = 1157
+    visits=0  records=0  elapsed=0.0s
+
+  k = 5, |U| <= 2, target size = 1157
+    visits=384  records=0  elapsed=0.1s
+
+  k = 6, |U| <= 3, target size = 1157
+    visits=2,944  records=0  elapsed=1.0s
+
+  k = 7, |U| <= 4, target size = 1157
+    visits=82,684  records=0  elapsed=30.7s
+
+======================================================================
+DELTA = +4  (target size 1158)
+======================================================================
+
+  k = 5, |U| <= 1, target size = 1158
+    visits=0  records=0  elapsed=0.0s
+
+  k = 6, |U| <= 2, target size = 1158
+    visits=384  records=0  elapsed=0.1s
+
+  k = 7, |U| <= 3, target size = 1158
+    visits=2,944  records=0  elapsed=1.1s
+
+Written: /Users/rafa/Downloads/PHASE4_GRIETA_G_RESULTS.json
+
+======================================================================
+PHASE 4 SUMMARY — Grieta G size-parity sweep
+======================================================================
+  delta=+2 (size 1156): 0 records
+  delta=+3 (size 1157): 0 records
+  delta=+4 (size 1158): 0 records
+
+  Grieta G (size-parity hypothesis) returns 0 records on this catalog.
+  This empirically confirms F-A-bis-5 (delta-bound saturation):
+  no path to 1156, 1157, or 1158 via multi-swap up to k=7
+  on the cset<=4 catalog of 1,608 native-shell candidates.
+  Paper-grade contribution to closure paper v6 §13.12.
+
+Total wall-clock: 332.2s
+======================================================================

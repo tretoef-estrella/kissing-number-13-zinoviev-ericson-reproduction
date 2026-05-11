@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "phase": "Frente A-bis Phase 4 \u2014 Grieta G size-parity",
+    "catalog_size": 1608,
+    "compat_density": 0.9846566792670128,
+    "deltas_tested": [
+      2,
+      3,
+      4
+    ],
+    "k_range": [
+      2,
+      7
+    ],
+    "wall_clock_seconds": 332.1314911842346
+  },
+  "results_by_delta": {
+    "2": {
+      "records_found": 0,
+      "examples": []
+    },
+    "3": {
+      "records_found": 0,
+      "examples": []
+    },
+    "4": {
+      "records_found": 0,
+      "examples": []
+    }
+  },
+  "total_records": 0
+}
